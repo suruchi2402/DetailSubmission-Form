@@ -1,0 +1,39 @@
+h2{
+    font-size: large;
+    font-family: sans-serif;
+    color: black;
+    padding-left: 45px;
+}
+::placeholder{
+    color: #49545d;
+    font-size: 15px;
+    font-family: sans-serif;
+
+}
+body{
+    display: block;
+    width: auto;
+    background-color: #d1d6db !important;
+    padding-left: 300px;
+    margin-right: auto !important;
+    margin-bottom: auto !important;   
+}
+.text-muted{
+    color: #6c757d !important;
+}
+#test{
+    color: black;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+}
+input[type=submit]{
+    width: 85px;
+    height: 30px;
+    font-weight: lighter;
+}
+input[type=reset]{
+    width: 80px;
+    height: 30px;
+    font-weight: lighter;
+}
+

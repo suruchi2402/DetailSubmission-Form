@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    
+    <h2>Detail Submission</h2>
+    <form action="backend.php">
+        <table>
+            <thead>
+                <tr>
+                    <td><label for="name">First name: </label></td>
+                    <td><label for="name2">Last name: </label></td>
+
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>
+                        <div>
+                            <input type="text" name="myName" id="name" size="15">
+                        </div>
+                    </td>
+                    <td>
+                        <div>
+                            <input type="text" name="myName" id="name2" size="15">
+                        </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <br>
+        <label for="roll">Mobile no:</label>
+        <div>
+            <input type="text" name="myRoll" id="roll" size="37">
+        </div>
+        <br>
+        <label for="email"> Email id:<span class="text-muted">(Optional)</span>
+        </label>
+        <div>
+            <input type="email" class="form-control" id="email" placeholder="you@example.com" size="37">
+        </div>
+        <br>
+        <label for="add">Address:</label>
+        <div>
+            <input type="text" name="myRoll" id="add" size="37">
+        </div>
+        <br>
+        <label for="date"> D.O.B. </label>
+        <div>
+            <input type="date" name="myDate" id="date">
+        </div>
+        <br>
+
+        <div>
+            Are you eligible? <input type="checkbox" name="myEligibility" id="ele" size="40">
+        </div>
+        <br>
+        <label for="gen">Gender: </label>
+        <div>
+            Male <input type="radio" name="myGender">Female <input type="radio" name="myGender">Other <input
+                type="radio" name="myGender" id="gen">
+        </div>
+        <br>
+        <label for="text">Write about yourself:</label>
+        <div>
+            <textarea name="myText" cols="60" rows="7" id="text"></textarea>
+        </div>
+        <br>
+        <div>
+            <label for="tshirt">T-shirt size</label>
+            <select name="myTshirt" id="tshirt">
+                <option value="XS">XS</option>
+                <option value="S">S</option>
+                <option value="M">M</option>
+                <option value="L">L</option>
+                <option value="XL">XL</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            <input type="submit" value="Submit Now">
+            <input type="reset" value="Reset Now">
+
+        </div>
+        <br>
+    </form>
+
+</body>
+
+</html>
