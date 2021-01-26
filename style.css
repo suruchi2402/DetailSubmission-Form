@@ -2,19 +2,18 @@ h2{
     font-size: large;
     font-family: sans-serif;
     color: black;
-    padding-left: 45px;
+    padding-left: 65px;
 }
 ::placeholder{
     color: #49545d;
     font-size: 15px;
     font-family: sans-serif;
-
 }
 body{
     display: block;
     width: auto;
     background-color: #d1d6db !important;
-    padding-left: 300px;
+    padding-left: 500px;
     margin-right: auto !important;
     margin-bottom: auto !important;   
 }
@@ -23,7 +22,7 @@ body{
 }
 #test{
     color: black;
-    font-size: 15px;
+    font-size: 20px;
     font-family: 'Times New Roman', Times, serif;
 }
 input[type=submit]{
